@@ -1,0 +1,20 @@
+{
+    "Name":  "RoleName",
+    "IsCustom":  true,
+    "Description":  "RoleDescription",
+    "Actions":  [                    
+
+                ],
+    "NotActions":  [
+
+                   ],
+    "DataActions":  [
+
+                    ],
+    "NotDataActions":  [
+
+                       ],
+    "AssignableScopes":  [
+                             "/subscriptions/ENTER SUB HERE"
+                         ]
+}

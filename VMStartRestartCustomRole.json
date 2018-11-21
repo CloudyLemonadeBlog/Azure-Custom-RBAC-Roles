@@ -1,0 +1,23 @@
+{
+    "Name":  "VM Start/Restart Role",
+    "IsCustom":  true,
+    "Description":  "This Custom RBAC role allows a user the access to Start or Restart a VM only.",
+    "Actions":  [
+                    
+                    "Microsoft.Compute/virtualMachines/start/action", 
+                    "Microsoft.Compute/virtualMachines/restart/action" 
+
+                ],
+    "NotActions":  [
+
+                   ],
+    "DataActions":  [
+
+                    ],
+    "NotDataActions":  [
+
+                       ],
+    "AssignableScopes":  [
+                             "/subscriptions/e9323b12-8e1e-4dde-9d38-fbdd05cd7eaf"
+                         ]
+}

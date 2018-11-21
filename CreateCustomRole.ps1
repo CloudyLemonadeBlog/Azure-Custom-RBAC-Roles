@@ -1,0 +1,1 @@
+New-AzureRmRoleDefinition -InputFile "C:\CustomRoles\VMStartRestartCustomRole.json"
